@@ -1,0 +1,21 @@
+#1. IMPORTAMOS LA LIBRERÍA SEABORN
+import seaborn as sns
+
+#2. PARA IMPORTAR DATOS EXTERNOS
+datos = sns.load_dataset('tips')
+print(datos)
+print()
+
+#3. PARA SABER EL TIPO DE DATOS IMPORTADO
+print(datos.dtypes)
+print()
+
+#4. PARA QUE MUESTRE LA CONSOLA LOS 5 PRIMEROS REGISTROS (CABECERA)
+#SI NO LE DAMOS UN VALOR MUESTRA LOS 5 PRIMEROS.
+#SI LE DAMOS VALOR, MUESTRA EL VALOR QUE LE DEMOS.
+print(datos.head(10))
+print()
+
+#5. BREVE RESUMEN ESTADÍSTICO DE LAS COLUMNAS NUMÉRICAS
+print(datos.describe())
+print()

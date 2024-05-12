@@ -1,0 +1,5 @@
+Código: 22, Nombre: jose, Apellido: garcia, Departamento: informatica
+Código: 55, Nombre: pepe, Apellido: serrano, Departamento: administracion
+Código: 26, Nombre: pepe, Apellido: garcia, Departamento: informatica
+Código: sadf, Nombre: asdf, Apellido: asdf, Departamento: asdf
+Código: dfg, Nombre: kjhhkj, Apellido: hjk, Departamento: hjk
